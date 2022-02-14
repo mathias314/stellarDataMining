@@ -3,5 +3,4 @@
 Creating a classifier for stars for data mining final project. 
 
 Team Members:
-Mathew Clutter
-Chami Senarath
+Mathew Clutter and Chami Senarath
