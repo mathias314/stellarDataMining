@@ -1,0 +1,55 @@
+#											
+#   VizieR Astronomical Server vizier.u-strasbg.fr											
+#    Date: 2022-02-21T02:48:10 [V1.99+ (14-Oct-2013)]											
+#   In case of problem	" please report to:	cds-question@unistra.fr"										
+#											
+#											
+"#Coosys	J2000:	eq_FK5 J2000"											
+"#INFO	votable-version=1.99+ (14-Oct-2013)"											
+"#INFO	-ref=VIZ6212fc15162bfe"											
+"#INFO	-out.max=999999"											
+"#INFO	queryParameters=23"											
+#-oc.form=dec											
+#-out.max=999999											
+#-out.add=_r											
+#-out.add=_RAJ	_DEJ										
+#-sort=_r											
+#-order=I											
+#-out.src=V/137D/XHIP											
+#-nav=cat:V/137D&tab:{V/137D/XHIP}&key:source=V/137D/XHIP&HTTPPRM:&&-ref=VIZ6212fc15162bfe&-out.max=50&-out.form=HTML Table&-out.add=_r&-out.add=_RAJ	_DEJ&-sort=_r&-oc.form=sexa&-c.eq=J2000&-c.r=  2&-c.u=arcmin&-c.geom=r&-order=I&-out=SpType&-out=Tc&-out=Lc&-out=[Fe/H]&-out=age&-out=Npl&-ignore=Simbad=*&Simbad=Simbad&-out=B-V&-out=KMag&-out=Lum&-out=Name&-file=.&-meta.ucd=2&-meta=1&-meta.foot=1&-usenav=1&-bmark=POST&-out.src=V/137D/XHIP										
+#-c.eq=J2000											
+#-c.r=  2											
+#-c.u=arcmin											
+#-c.geom=r											
+#-source=V/137D/XHIP											
+#-out=SpType											
+#-out=Tc											
+#-out=Lc											
+#-out=[Fe/H]											
+#-out=age											
+#-out=Npl											
+#-out=B-V											
+#-out=KMag											
+#-out=Lum											
+#-out=Name											
+#											
+											
+#RESOURCE=yCat_5137											
+#Name: V/137D											
+#Title: Extended Hipparcos Compilation (XHIP) (Anderson+	 2012)										
+"#Coosys	J2000_1991.250:	eq_FK5 J2000"											
+"#Table	V_137D_XHIP:"											
+#Name: V/137D/XHIP											
+#Title: XHIP catalog: astrometry	 spectrography	 space motions	 exoplanets	 photometry	 and references						
+"#Column	_RAJ2000	(F14.10)	Right ascension (FK5"	 Equinox=J2000.0) at Epoch=J2000	" proper motions taken into account 	[ucd=pos.eq.ra]"									
+"#Column	_DEJ2000	(F14.10)	Declination (FK5"	 Equinox=J2000.0) at Epoch=J2000	" proper motions taken into account 	[ucd=pos.eq.dec]"									
+"#Column	SpType	(a26)	Spectral type (MK"	 HD	" or other)	[ucd=src.spType]"									
+"#Column	Tc	(I3)	]0/140[? Temperature class codified (10) [NULL integer written as an empty string]	[ucd=src.spType]"											
+"#Column	Lc	(I1)	[1/6]? Luminosity class codified (11) [NULL integer written as an empty string]	[ucd=src.class.luminosity]"											
+"#Column	[Fe/H]	(F5.2)	? Iron abundance	[ucd=phys.abund.Fe]"											
+"#Column	age	(F4.1)	? Age"	" in billions of years	[ucd=time.age]"										
+"#Column	Npl	(I1)	? Number of exoplanets (known in April 2012) [NULL integer written as an empty string]	[ucd=meta.number]"											
+"#Column	B-V	(F6.3)	? Johnson B-V color index	[ucd=phot.color"	em.opt.B	em.opt.V]									
+"#Column	KMag	(F6.2)	? Absolute Magnitude K (23)	[ucd=phys.magAbs"	em.IR.K]										
+"#Column	Lum	(F9.2)	? Stellar luminosity (23)	[ucd=phys.luminosity]"											
+"#Column	Name	(a48)	Star name(s)	[ucd=meta.id]"											
